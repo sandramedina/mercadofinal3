@@ -1,0 +1,198 @@
+body {
+  background-image: url("images/supermercado.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-size: 37px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+h2 {
+  color: yellow;
+  font-size: 34px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  font-style: oblique;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  text-align: center;
+}
+.justificado:hover {
+  text-align: justify;
+  color: teal;
+}
+
+.cursiva-negrita {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  color: orange;
+}
+.primer-div {
+  display: block;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: teal;
+  border: 20px solid limegreen;
+  margin: 70px 50px 50px 300px;
+  padding: 20px 50px 50px 50px;
+  height: 50%;
+  width: 50%;
+}
+.color-blanco {
+  color: red;
+  font-weight: bolder;
+  font-style: justify;
+  font-size: 40px;
+}
+p,
+h1 {
+  font-size: 20px;
+  color: aqua;
+}
+#flexs {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: red;
+  flex-direction: column;
+  height: 70%;
+}
+.primerlista {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: teal;
+  text-align: center;
+  color: rgb(12, 243, 12);
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.secondtothird {
+  color: white;
+}
+a {
+  background-color: rgb(143, 188, 178);
+  color: black;
+}
+a:hover {
+  font-style: oblique;
+}
+#boton-comprar {
+  padding: 5px;
+  background: light-gray;
+  color: black;
+  width: 100%;
+}
+#boton-comprar:hover {
+  padding: 5px;
+  background: gray;
+  color: brown;
+  width: 100%;
+}
+#boton-comprar:active {
+  padding: 5px;
+  background: green;
+  color: blue;
+  width: 100%;
+}
+#principio {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: darkcyan;
+  color: rgb(21, 17, 245);
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 40px;
+  background-color: burlywood;
+}
+li {
+  font-size: 30px;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: red;
+}
+
+#cuadradado {
+  background-color: green;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.final {
+  background-color: white;
+}
+
+.imagen-producto {
+  size: 20px;
+}
+.color-producto {
+  color: blue;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 35%;
+}
+.color-producto:hover {
+  background-color: white;
+}
+.color-precio {
+  background-color: black;
+  color: white;
+  width: 15%;
+}
+.boton-primario {
+  justify-content: center;
+  align-items: center;
+}
+#tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  padding: 100px;
+}
+.button {
+  height: 30px;
+  size: 40px;
+}
+#contProductos {
+  display: block;
+  position: relative;
+  float: right;
+}
